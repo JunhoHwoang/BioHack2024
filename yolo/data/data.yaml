@@ -1,0 +1,7 @@
+#Absolute path to your data directories
+train: /Users/hwangjunho/Downloads/BioHack Resources/BioHack_Remake/yolo/data/train/images
+val: /Users/hwangjunho/Downloads/BioHack Resources/BioHack_Remake/yolo/data/valid/images
+test: /Users/hwangjunho/Downloads/BioHack Resources/BioHack_Remake/yolo/data/test/images
+
+nc: 1
+names: ["prosthetic"]
