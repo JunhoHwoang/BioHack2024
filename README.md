@@ -5,19 +5,19 @@ Biohack Prosthetic Code
 
 Overview: This project is designed to enhance prosthetic hand functionality by detecting objects using a camera and adjusting grip strength accordingly. The system uses YOLOv11 for object detection, processes the input through Python scripts, and communicates with a microcontroller via Bluetooth to control grip strength.
 
-##Features:
+## Features:
 
 Object Detection: Identifies objects in real time using YOLOv11.
 Grip Strength Adjustment: Determines the necessary grip strength based on the detected object.
 Arduino Compatibility for 3rd Party Cameras: Sends grip strength data to the prosthetic hand controller.
 
-##Requirements:
+## Requirements:
 
 `pip install -r requirements.txt`
 
-##Training:
+## Training:
 
-###Config:
+### Config:
 
 in yolo/data/data.yml
 
@@ -36,9 +36,9 @@ Then
 `python train.py`
 
 
-##Usage:
+## Usage:
 
-###Config:
+### Config:
 
 Change this config values to your arduino connection and the model path
 
@@ -58,7 +58,7 @@ Value goes through Arduino to adjust Servo motors on prosthetic
 
 The program outputs logs for detected objects, grip strength values, and transmission status.
 
-##Future Improvements
+## Future Improvements
 
 Implement more object categories for enhanced accuracy.
 
